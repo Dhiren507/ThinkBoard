@@ -45,12 +45,6 @@ ThinkBoard isn't just another note-taking app. It's your **AI-powered thinking c
 **Frontend:** [https://thinkboardd.netlify.app](https://thinkboardd.netlify.app)  
 **Backend API:** [https://think-board-git-main-dhiren507s-projects.vercel.app](https://think-board-git-main-dhiren507s-projects.vercel.app)
 
-### Test Credentials
-```
-Email: demo@thinkboard.com
-Password: demo123
-```
-*Note: Feel free to create your own account!*
 
 ---
 
