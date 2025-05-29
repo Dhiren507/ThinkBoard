@@ -267,19 +267,15 @@ We love contributions! Here's how you can help make ThinkBoard even better:
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ---
 
 ## 👨‍💻 Author
 
 **Dhiren** - *Full Stack Developer & AI Enthusiast*
 
-- 🌐 Portfolio: [Your Portfolio](https://dhiren507.github.io)
-- 💼 LinkedIn: [Your LinkedIn](https://linkedin.com/in/Dhiren)
-- 🐦 Twitter: [@YourTwitter](https://twitter.com/Dhiren9611)
+- 🌐 Portfolio: [ClickHere](https://dhiren507.github.io)
+- 💼 LinkedIn: [ClickHere](https://linkedin.com/in/dhiren-dantani)
+- 🐦 Telegram: [ClickHere](https://t.me/Dhiren9611)
 - 📧 Email: dantanidhiren4@gmail.com
 
 ---
