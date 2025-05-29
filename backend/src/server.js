@@ -22,9 +22,8 @@ const PORT = process.env.PORT || 3000;
 app.use(helmet()); // Helps secure Express apps with various HTTP headers
 app.use(compression()); // Compress responses
 
-app.use(cors({
-    origin: process.env.NODE_ENV === 'production'
-      ? process.env.FRONTEND_URL || 'https://your-production-domain.com'
+app.use(cors({    origin: process.env.NODE_ENV === 'production'
+      ? process.env.FRONTEND_URL
       : ["http://localhost:5173", "http://localhost:5174"],
     credentials: true
 }))
