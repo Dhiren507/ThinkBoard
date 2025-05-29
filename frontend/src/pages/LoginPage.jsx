@@ -23,12 +23,11 @@ const LoginPage = () => {
       setIsLoading(false);
     }
   };
-
   return (
-    <div className="min-h-screen flex items-center justify-center">
+    <div className="min-h-screen flex items-center justify-center p-4">
       <div className="card w-full max-w-md bg-base-100 shadow-xl">
-        <div className="card-body">
-          <h1 className="card-title text-3xl font-bold text-center mb-6">Login to ThinkBoard</h1>
+        <div className="card-body p-4 sm:p-6">
+          <h1 className="card-title text-2xl sm:text-3xl font-bold text-center mb-4 sm:mb-6">Login to ThinkBoard</h1>
           
           <form onSubmit={handleSubmit}>
             <div className="form-control mb-4">
