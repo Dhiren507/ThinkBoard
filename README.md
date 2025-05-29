@@ -36,7 +36,7 @@ ThinkBoard isn't just another note-taking app. It's your **AI-powered thinking c
 | ⚡ **Real-time Operations** | Lightning-fast CRUD operations | ✅ Live |
 | 🎨 **Dark/Light Themes** | Beautiful themes that adapt to your preference | ✅ Live |
 | 🛡️ **Rate Limiting** | Smart rate limiting with Redis for optimal performance | ✅ Live |
-| 📝 **Rich Text Formatting** | Support for bold text and structured content | ✅ Live |
+
 
 ---
 
