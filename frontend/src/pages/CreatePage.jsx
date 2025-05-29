@@ -1,18 +1,16 @@
-import { ArrowLeftIcon, Sparkles, EyeIcon, EditIcon } from "lucide-react";
+import { ArrowLeftIcon, Sparkles } from "lucide-react";
 import { useState, useEffect } from "react";
 import toast from "react-hot-toast";
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import api from "../lib/axios";
-import { formatTextContent } from "../lib/utils";
 import LoadingSpinner from "../components/LoadingSpinner";
 
 const CreatePage = () => {
   const [title, setTitle] = useState("");
-  const [content, setContent] = useState("");
-  const [loading, setLoading] = useState(false);
+  const [content, setContent] = useState("");  const [loading, setLoading] = useState(false);
   const [prompt, setPrompt] = useState("");
   const [isGenerating, setIsGenerating] = useState(false);
-  const [isPreviewMode, setIsPreviewMode] = useState(false);
+
 
   const navigate = useNavigate();
   const handleSubmit = async (e) => {
@@ -92,46 +90,20 @@ const CreatePage = () => {
                     value={title}
                     onChange={(e) => setTitle(e.target.value)}
                   />
-                </div>                <div className="form-control mb-4">
-                  <div className="flex justify-between items-center">
-                    <label className="label">
-                      <span className="label-text">Content</span>
-                    </label>
-                    <div className="btn-group">
-                      <button 
-                        type="button"
-                        className={`btn btn-xs ${!isPreviewMode ? 'btn-active' : ''}`}
-                        onClick={() => setIsPreviewMode(false)}
-                      >
-                        <EditIcon size={16} />
-                        <span className="ml-1">Edit</span>
-                      </button>
-                      <button 
-                        type="button"
-                        className={`btn btn-xs ${isPreviewMode ? 'btn-active' : ''}`}
-                        onClick={() => setIsPreviewMode(true)}
-                      >
-                        <EyeIcon size={16} />
-                        <span className="ml-1">Preview</span>
-                      </button>
-                    </div>                  </div>
-                  
-                  {isPreviewMode ? (
-                    <div className="bg-base-200 p-4 rounded-lg min-h-[8rem] prose max-w-none">
-                      <div dangerouslySetInnerHTML={{ __html: formatTextContent(content) }}></div>
-                    </div>
-                  ) : (
-                    <textarea
-                      placeholder="Write your note here... Use ***text*** for bold formatting"
-                      className="textarea textarea-bordered h-32 sm:h-40"
-                      value={content}
-                      onChange={(e) => setContent(e.target.value)}
-                    />                  )}
-                  
+                </div>                 <div className="form-control mb-4">
+                  <label className="label">
+                    <span className="label-text">Content</span>
+                  </label>
+                  <textarea
+                    placeholder="Write your note here... Use ***text*** for bold formatting"
+                    className="textarea textarea-bordered h-32 sm:h-40"
+                    value={content}
+                    onChange={(e) => setContent(e.target.value)}
+                  />
                   <div className="mt-2 text-xs text-base-content/60">
                     <span>Tip: Use ***text*** to make text <strong>bold</strong></span>
                   </div>
-                </div>                {/* AI Assistant Section with Gemini branding */}
+                </div>{/* AI Assistant Section with Gemini branding */}
                 <div className="bg-base-200 p-3 sm:p-4 rounded-lg mb-4 border border-primary/30">
                   <div className="flex items-center gap-2 mb-2">
                     <Sparkles className="text-primary" size={20} />
