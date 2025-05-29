@@ -1,0 +1,31 @@
+{
+  "name": "thinkboard",
+  "version": "1.0.0",
+  "description": "ThinkBoard - A MERN stack note-taking application with AI integration",
+  "private": true,  "scripts": {
+    "setup": "npm run setup:backend && npm run setup:frontend",
+    "setup:backend": "cd backend && npm run setup",
+    "setup:frontend": "cd frontend && npm run setup",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "build": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm install",
+    "start": "cd backend && npm run prod",
+    "deploy:check": "echo 'Checking deployment readiness...' && cd frontend && npm run build && cd ../backend && npm install"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "node",
+    "express",
+    "mongodb",
+    "ai",
+    "note-taking"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
