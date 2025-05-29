@@ -77,24 +77,6 @@ ThinkBoard isn't just another note-taking app. It's your **AI-powered thinking c
 
 ---
 
-## 🎨 Screenshots
-
-<div align="center">
-
-### 🏠 Dashboard
-*Clean, intuitive interface with your notes at a glance*
-
-### 📝 Create Notes with AI
-*Gemini AI helps you write better content*
-
-### 💬 ThinkMate Chat
-*Your AI brainstorming partner*
-
-### 📱 Mobile Responsive
-*Perfect experience on any device*
-
-</div>
-
 ---
 
 ## 🏃‍♂️ Quick Start
@@ -295,10 +277,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Dhiren** - *Full Stack Developer & AI Enthusiast*
 
-- 🌐 Portfolio: [Your Portfolio](https://yourportfolio.com)
-- 💼 LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- 🐦 Twitter: [@YourTwitter](https://twitter.com/yourhandle)
-- 📧 Email: your.email@example.com
+- 🌐 Portfolio: [Your Portfolio](https://dhiren507.github.io)
+- 💼 LinkedIn: [Your LinkedIn](https://linkedin.com/in/Dhiren)
+- 🐦 Twitter: [@YourTwitter](https://twitter.com/Dhiren9611)
+- 📧 Email: dantanidhiren4@gmail.com
 
 ---
 
