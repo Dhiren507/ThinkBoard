@@ -57,7 +57,7 @@ export const chatWithThinkMate = async (req, res) => {
 
 Remember you are ThinkMate, the helpful assistant for the ThinkBoard note-taking application. 
 You help users with note organization, provide writing tips, suggest productivity strategies, 
-or answer questions about how to use ThinkBoard effectively. Be friendly, helpful, and concise.`;
+or answer questions about how to use ThinkBoard effectively. Be friendly, helpful, and concise.also dont format the text using *** and other things you can still provide formated text but without using any symbols`;
 
     const result = await chat.sendMessage(promptText);
     
@@ -87,7 +87,7 @@ You are ThinkMate, the helpful assistant for the ThinkBoard note-taking applicat
 You help users with note organization, provide writing tips, suggest productivity strategies,
 or answer questions about how to use ThinkBoard effectively.
 Respond to the user's message above. Be friendly, helpful, and concise.
-`;
+also dont format the text using *** and other things you can still provide formated text but without using any symbols`;
 
       const fallbackResult = await fallbackModel.generateContent(fallbackPrompt);
       const response = fallbackResult.response.text();
